@@ -1,5 +1,6 @@
 import React from 'react';
-import logo from "./assets/img/hero-bg.jpg"
+import { Eye, Rocket } from 'lucide-react';
+import logo from "./assets/img/hero-bg.jpg";
 
 const About = () => {
     return (
@@ -7,10 +8,7 @@ const About = () => {
             <div className="container mx-auto px-4">
                 {/* Section Title */}
                 <div className="text-center mb-12">
-                    <h2 className="text-3xl md:text-4xl font-bold mb-4 text-gray-900">About</h2>
-                    <p className="text-lg md:text-xl text-gray-600">
-                        ¿Qué es <span className="text-yellow-500 font-semibold">Económica</span>?
-                    </p>
+                    <h2 className="text-3xl md:text-4xl font-bold mb-4 text-gray-900">¿Qué es <span className="text-blue-600">Económica?</span></h2>
                 </div>
 
                 {/* Content Grid */}
@@ -25,28 +23,28 @@ const About = () => {
                     </div>
 
                     {/* Text Content */}
-                    <div className="md:w-1/2" data-aos="fade-up" data-aos-delay="200">
+                    <div className="md:w-1/2 space-y-6" data-aos="fade-up" data-aos-delay="200">
                         <p className="italic text-gray-700 mb-4">
                             Económica es una organización promovida por estudiantes de la especialidad de economía de la Pontificia Universidad Católica del Perú (PUCP).
                         </p>
                         <p className="text-gray-700 mb-6">
-                            Entre los productos académicos que ofrece Económica, se encuentran una revista física de publicación semestral y una versión digital de actualización diaria, así como artículos de opinión y boletines informativos. Las publicaciones están relacionadas con la ciencia económica, actualidad de la economía peruana y mundial, y temas donde esta ciencia puede aportar a la discusión.
+                            Entre los productos académicos que ofrece Económica, presenta una revista física de publicación semestral y una versión digital de actualización diaria, así como artículos de opinión de sus miembros y boletines informativos de temas coyunturales de interés. El contenido de las publicaciones está relacionado a la ciencia económica, actualidad de la economía peruana y mundial, y a temas en los que dicha ciencia pueda aportar en su discusión.
                         </p>
 
                         {/* Mission and Vision */}
                         <div className="space-y-6">
                             <div className="flex items-start">
-                                <i className="bi bi-eye-fill text-yellow-500 text-3xl mr-4"></i>
+                                <Eye className="text-blue-600 w-8 h-8 mr-4" />
                                 <div>
                                     <h4 className="text-xl font-semibold text-gray-900">Misión</h4>
                                     <p className="text-gray-700">
-                                        Somos una asociación de estudiantes sin fines de lucro, orientados a ser un referente académico en temas de economía, caracterizados por su objetividad, imparcialidad y calidad informativa. Además, buscamos generar debate en temas de interés público vinculados a la economía.
+                                        Somos una asociación de estudiantes sin fines de lucro orientados a ser un referente académico en temas de economía, caracterizado por su objetividad, imparcialidad y calidad informativa. Además, buscamos generar debate en torno a temas de interés público vinculados a la economía.
                                     </p>
                                 </div>
                             </div>
 
                             <div className="flex items-start">
-                                <i className="bi bi-rocket-fill text-yellow-500 text-3xl mr-4"></i>
+                                <Rocket className="text-blue-600 w-8 h-8 mr-4" />
                                 <div>
                                     <h4 className="text-xl font-semibold text-gray-900">Visión</h4>
                                     <p className="text-gray-700">

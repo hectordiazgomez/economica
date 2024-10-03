@@ -10,15 +10,17 @@ import Contact from './components/contact';
 
 const App = () => {
   return (
-    <div className="App">
+    <div className="App ">
       <Header />
       <Hero />
-      <About />
-      <Services />
-      <Portfolio/>
-      <BlogPosts/>
-      <Contact/>
-      <Footer />
+<div className='px-2 sm:px-16'>
+        <About />
+        <Services />
+        <Portfolio />
+        <BlogPosts />
+        <Contact />
+        <Footer />
+</div>
     </div>
   );
 };

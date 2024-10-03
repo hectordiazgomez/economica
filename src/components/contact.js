@@ -1,4 +1,5 @@
 import React from 'react';
+import { MapPin, Phone, Mail } from 'lucide-react';
 
 const Contact = () => {
     return (
@@ -6,10 +7,7 @@ const Contact = () => {
             <div className="container mx-auto px-4">
                 {/* Section Title */}
                 <div className="text-center mb-12">
-                    <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Contact</h2>
-                    <p className="text-lg text-gray-600">
-                        Need Help? <span className="text-yellow-500 font-semibold">Contact Us</span>
-                    </p>
+                    <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Need Help? <span className="text-blue-600">Contact Us</span></h2>
                 </div>
 
                 {/* Contact Content */}
@@ -18,7 +16,7 @@ const Contact = () => {
                     <div className="md:w-1/2 space-y-6">
                         {/* Address */}
                         <div className="bg-white rounded-lg shadow-md p-6 flex items-center space-x-4">
-                            <i className="bi bi-geo-alt text-yellow-500 text-3xl"></i>
+                            <MapPin className="text-blue-600 w-8 h-8" />
                             <div>
                                 <h3 className="text-lg font-semibold text-gray-900">Address</h3>
                                 <p className="text-gray-600">A108 Adam Street, New York, NY 535022</p>
@@ -27,7 +25,7 @@ const Contact = () => {
 
                         {/* Phone */}
                         <div className="bg-white rounded-lg shadow-md p-6 flex items-center space-x-4">
-                            <i className="bi bi-telephone text-yellow-500 text-3xl"></i>
+                            <Phone className="text-blue-600 w-8 h-8" />
                             <div>
                                 <h3 className="text-lg font-semibold text-gray-900">Call Us</h3>
                                 <p className="text-gray-600">+1 5589 55488 55</p>
@@ -36,7 +34,7 @@ const Contact = () => {
 
                         {/* Email */}
                         <div className="bg-white rounded-lg shadow-md p-6 flex items-center space-x-4">
-                            <i className="bi bi-envelope text-yellow-500 text-3xl"></i>
+                            <Mail className="text-blue-600 w-8 h-8" />
                             <div>
                                 <h3 className="text-lg font-semibold text-gray-900">Email Us</h3>
                                 <p className="text-gray-600">info@example.com</p>
@@ -68,7 +66,7 @@ const Contact = () => {
                                     type="text"
                                     name="name"
                                     id="name-field"
-                                    className="w-full p-3 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-yellow-500"
+                                    className="w-full p-3 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-600"
                                     required
                                 />
                             </div>
@@ -82,7 +80,7 @@ const Contact = () => {
                                     type="email"
                                     name="email"
                                     id="email-field"
-                                    className="w-full p-3 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-yellow-500"
+                                    className="w-full p-3 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-600"
                                     required
                                 />
                             </div>
@@ -96,7 +94,7 @@ const Contact = () => {
                                     type="text"
                                     name="subject"
                                     id="subject-field"
-                                    className="w-full p-3 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-yellow-500"
+                                    className="w-full p-3 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-600"
                                     required
                                 />
                             </div>
@@ -110,7 +108,7 @@ const Contact = () => {
                                     name="message"
                                     rows="5"
                                     id="message-field"
-                                    className="w-full p-3 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-yellow-500"
+                                    className="w-full p-3 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-600"
                                     required
                                 ></textarea>
                             </div>
@@ -119,7 +117,7 @@ const Contact = () => {
                             <div className="text-center">
                                 <button
                                     type="submit"
-                                    className="bg-yellow-500 text-white px-6 py-3 rounded font-semibold hover:bg-yellow-600 transition"
+                                    className="bg-blue-600 text-white px-6 py-3 rounded font-semibold hover:bg-blue-700 transition"
                                 >
                                     Send Message
                                 </button>
