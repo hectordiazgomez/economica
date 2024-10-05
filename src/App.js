@@ -13,7 +13,7 @@ const App = () => {
     <div className="App ">
       <Header />
       <Hero />
-<div className='px-2 sm:px-16'> 
+        <div className='px-2 sm:px-16'> 
         <About />
         <Services />
         <Portfolio />
@@ -22,7 +22,7 @@ const App = () => {
         <Contact />
         */}
         <Footer />
-</div>
+        </div>
     </div>
   );
 };
