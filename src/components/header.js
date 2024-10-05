@@ -6,12 +6,12 @@ const Header = () => {
 
     return (
         <header className="sticky top-0 bg-white shadow-md z-50">
-            <div className="container mx-auto flex items-center justify-between py-4 px-4 md:px-8">
+            <div className="container mx-auto flex items-center justify-between py-6 px-4 md:px-8">
                 <a href="/" className="flex items-center">
                     <img
                         src={logo}
                         alt="ECONÓMICA"
-                        className="w-32 h-auto"
+                        className="w-40 h-auto"
                     />
                 </a>
                 <button
@@ -28,9 +28,11 @@ const Header = () => {
                         Nosotros
                     </a>
                     <a href="#team" className="block py-2 md:py-0 text-gray-700 hover:text-blue-500 transition">
-                        Revista
+                        Multimedia
                     </a>
-
+                    <a href="#team" className="block py-2 md:py-0 text-gray-700 hover:text-blue-500 transition">
+                        Cursos
+                    </a>
                     <div className="relative group">
                         <a
                             href="#"
@@ -61,7 +63,9 @@ const Header = () => {
                             </li>
                         </ul>
                     </div>
-                    {/* Add other links similarly */}
+                    <a href="" className="block flex items-center justify-center py-2 md:py-0 text-gray-700 hover:text-blue-500 transition">
+                        <button className='bg-green-800 text-white rounded px-4 py-2 hover:bg-green-900'>Contacto</button>
+                    </a>
                 </nav>
             </div>
         </header>

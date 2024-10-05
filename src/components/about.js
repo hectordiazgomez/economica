@@ -18,7 +18,7 @@ const About = () => {
                         <img
                             src={logo}
                             alt="About Económica"
-                            className="w-full max-w-md rounded-lg shadow-lg"
+                            className="w-full sm:w-5/6 rounded-lg shadow-lg"
                         />
                     </div>
 
@@ -34,7 +34,7 @@ const About = () => {
                         {/* Mission and Vision */}
                         <div className="space-y-6">
                             <div className="flex items-start">
-                                <Eye className="text-blue-600 w-8 h-8 mr-4" />
+                                <Eye className="text-blue-600 w-20 h-auto mt-2 mr-4" />
                                 <div>
                                     <h4 className="text-xl font-semibold text-gray-900">Misión</h4>
                                     <p className="text-gray-700">
@@ -44,7 +44,7 @@ const About = () => {
                             </div>
 
                             <div className="flex items-start">
-                                <Rocket className="text-blue-600 w-8 h-8 mr-4" />
+                                <Rocket className="text-blue-600 w-16 h-auto mt-2 mr-2" />
                                 <div>
                                     <h4 className="text-xl font-semibold text-gray-900">Visión</h4>
                                     <p className="text-gray-700">

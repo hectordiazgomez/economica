@@ -3,32 +3,32 @@ import { FileSpreadsheetIcon, LucideBetweenHorizontalEnd, EqualSquareIcon, BoxSe
 
 const services = [
     {
-        icon: <FileSpreadsheetIcon size={40} className="text-yellow-500 mb-4" />,
+        icon: <FileSpreadsheetIcon size={40} className="text-green-500 mb-4" />,
         title: "Microsoft Excel",
         description: "Provident nihil minus qui consequatur non omnis maiores.",
     },
     {
-        icon: <LucideBetweenHorizontalEnd size={40} className="text-yellow-500 mb-4" />,
+        icon: <LucideBetweenHorizontalEnd size={40} className="text-green-500 mb-4" />,
         title: "Eosle Commodi",
         description: "Ut autem aut autem non a. Sint sit facilis nam iusto sint.",
     },
     {
-        icon: <EqualSquareIcon size={40} className="text-yellow-500 mb-4" />,
+        icon: <EqualSquareIcon size={40} className="text-green-500 mb-4" />,
         title: "Ledo Markt",
         description: "Ut excepturi voluptatem nisi sed. Quidem fuga consequatur.",
     },
     {
-        icon: <BoxSelectIcon size={40} className="text-yellow-500 mb-4" />,
+        icon: <BoxSelectIcon size={40} className="text-green-500 mb-4" />,
         title: "Asperiores Commodit",
         description: "Non et temporibus minus omnis sed dolor esse consequatur.",
     },
     {
-        icon: <Calendar size={40} className="text-yellow-500 mb-4" />,
+        icon: <Calendar size={40} className="text-green-500 mb-4" />,
         title: "Velit Doloremque",
         description: "Cumque et suscipit saepe. Est maiores enim facilis.",
     },
     {
-        icon: <MessageCircle size={40} className="text-yellow-500 mb-4" />,
+        icon: <MessageCircle size={40} className="text-green-500 mb-4" />,
         title: "Dolori Architecto",
         description: "Hic molestias ea quibusdam eos. Fugiat aut neque.",
     },
@@ -42,7 +42,7 @@ const Services = () => {
                 <div className="text-center mb-12">
                     <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Cursos</h2>
                     <p className="text-lg text-gray-600">
-                        Check Our <span className="text-yellow-500 font-semibold">Cursos</span>
+                        Revisa nuestros <span className="text-gren-500 font-semibold">Cursos</span>
                     </p>
                 </div>
 
@@ -51,7 +51,7 @@ const Services = () => {
                     {services.map((service, index) => (
                         <div
                             key={index}
-                            className="bg-gray-50 rounded-lg shadow-lg p-8 text-center hover:bg-yellow-50 transition transform hover:-translate-y-2"
+                            className="bg-gray-50 rounded-lg shadow-lg p-8 text-center hover:bg-green-50 transition transform hover:-translate-y-2"
                         >
                             {/* Icon */}
                             <div className="flex justify-center">
@@ -67,9 +67,9 @@ const Services = () => {
                             {/* Call to Action */}
                             <a
                                 href="#"
-                                className="inline-block mt-4 text-yellow-500 font-semibold hover:text-yellow-600 border border-yellow-500 rounded-full px-6 py-2 transition-colors duration-200"
+                                className="inline-block mt-4 text-green-500 font-semibold hover:text-green-600 border border-green-500 rounded-full px-6 py-2 transition-colors duration-200"
                             >
-                                Learn More
+                                Ver más
                             </a>
                         </div>
                     ))}

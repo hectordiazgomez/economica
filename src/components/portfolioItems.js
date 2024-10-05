@@ -8,37 +8,37 @@ import logo5 from "./assets/img/masonry-portfolio/Econext_2.jfif";
 const portfolioItems = [
     {
         category: "App",
-        title: "App 1",
+        title: "Publicación 1",
         description: "Lorem ipsum, dolor sit",
-        imgSrc: logo1, // Removed the curly braces
+        imgSrc: logo1,
         detailLink: "portfolio-details.html",
     },
     {
         category: "Product",
-        title: "Product 1",
+        title: "Publicación 2",
         description: "Lorem ipsum, dolor sit",
-        imgSrc: logo2, // Removed the curly braces
+        imgSrc: logo2,
         detailLink: "portfolio-details.html",
     },
     {
         category: "Branding",
-        title: "Branding 1",
+        title: "Publicación 3",
         description: "Lorem ipsum, dolor sit",
-        imgSrc: logo3, // Removed the curly braces
+        imgSrc: logo3,
         detailLink: "portfolio-details.html",
     },
     {
         category: "App",
-        title: "App 2",
+        title: "Publicación 4",
         description: "Lorem ipsum, dolor sit",
-        imgSrc: logo4, // Removed the curly braces
+        imgSrc: logo4,
         detailLink: "portfolio-details.html",
     },
     {
         category: "Product",
-        title: "Product 2",
+        title: "Publicación 5",
         description: "Lorem ipsum, dolor sit",
-        imgSrc: logo5, // Removed the curly braces
+        imgSrc: logo5,
         detailLink: "portfolio-details.html",
     },
 ];
@@ -47,39 +47,33 @@ const Portfolio = () => {
     return (
         <section id="portfolio" className="py-20 bg-gray-50">
             <div className="container mx-auto px-4">
-                {/* Section Title */}
                 <div className="text-center mb-12">
-                    <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Portfolio</h2>
+                    <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Publicaciones</h2>
                     <p className="text-lg text-gray-600">
-                        Check Our <span className="text-yellow-500 font-semibold">Portfolio</span>
+                        Revisa nuestras <span className="text-yellow-500 font-semibold">Publicaciones</span>
                     </p>
                 </div>
 
-                {/* Portfolio Grid */}
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
                     {portfolioItems.map((item, index) => (
                         <div
                             key={index}
-                            className="group bg-white rounded-lg shadow-md overflow-hidden transform transition-transform hover:scale-105"
+                            className="group bg-white cursor-pointer rounded-lg shadow-md overflow-hidden transform transition-transform hover:scale-105"
                             data-category={item.category}
                         >
-                            {/* Portfolio Image */}
                             <div className="relative">
                                 <img
                                     src={item.imgSrc}
                                     alt={item.title}
                                     className="w-full h-64 object-cover"
                                 />
-                                {/* Overlay on Hover */}
-                                <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+                                <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
                                     <div className="text-center text-white">
                                         <h4 className="text-lg font-semibold">{item.title}</h4>
                                         <p className="text-sm">{item.description}</p>
                                     </div>
                                 </div>
                             </div>
-
-                            {/* Portfolio Info */}
                             <div className="p-4 text-center">
                                 <a
                                     href={item.detailLink}

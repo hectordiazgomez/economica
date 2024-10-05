@@ -38,8 +38,8 @@ const BlogPosts = () => {
             <div className="container mx-auto px-4">
                 {/* Section Title */}
                 <div className="text-center mb-12">
-                    <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Recent Blog Posts</h2>
-                    <p className="text-lg text-gray-600">Publicaciones recientes</p>
+                    <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Artículos</h2>
+                    <p className="text-lg text-gray-600">Artículos recientes</p>
                 </div>
 
                 {/* Blog Posts Grid */}
