@@ -6,26 +6,26 @@ import saludMentalImg from "./assets/img/articles/salud_mental.webp";
 
 const blogPosts = [
     {
-        title: "Eum ad dolor et. Autem aut fugiat debitis",
-        author: "Julia Parker",
-        category: "Politics",
-        date: "December 12",
+        title: "Tecnologías blockchain y criptomonedas: explorando el futuro digital",
+        author: "Paul Alexandro Flores Coapaza",
+        category: "Economics",
+        date: "abril 6, 2024",
         imgSrc: blockchainImg, 
         detailLink: "blog-details.html",
     },
     {
-        title: "Et repellendus molestiae qui est sed omnis",
-        author: "Mario Douglas",
-        category: "Sports",
-        date: "July 17",
+        title: "Analogía entre dos sistemas morales (político-económicos): comunismo y cristianismo",
+        author: "Herick Varosvky Pacheco Saravia",
+        category: "Economics",
+        date: "marzo 30, 2024",
         imgSrc: analogImg, 
         detailLink: "blog-details.html",
     },
     {
-        title: "Quia assumenda est et veritati tirana ploder",
-        author: "Lisa Hunter",
+        title: "Conexiones entre Salud Mental y Desempleo",
+        author: "Favio Samillan Flores",
         category: "Economics",
-        date: "September 05",
+        date: "mayo 29, 2024",
         imgSrc: saludMentalImg, // Use imported image
         detailLink: "blog-details.html",
     },
