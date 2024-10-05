@@ -14,7 +14,7 @@ const Hero = () => {
                     <div className="max-w-2xl">
                         {/* Hero Title */}
                         <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-4">
-                            Bienvenido a <span className="text-yellow-400">Económica</span>
+                            Bienvenido a <span className="text-green-500">Económica</span>
                         </h1>
                         <p className="text-lg md:text-xl mb-8">
                             Somos un grupo de estudiantes que buscan la difusión de la Economía.

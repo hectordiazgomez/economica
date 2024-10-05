@@ -39,10 +39,10 @@ const Footer = () => {
                 <div>
                     <h4 className="text-xl font-semibold mb-4">Links</h4>
                     <ul className="space-y-2">
-                        <li><a href="#" className="hover:text-blue-600">Home</a></li>
-                        <li><a href="#" className="hover:text-blue-600">About us</a></li>
-                        <li><a href="#" className="hover:text-blue-600">Services</a></li>
-                        <li><a href="#" className="hover:text-blue-600">Terms of service</a></li>
+                        <li><a href="#" className="hover:text-green-600">Home</a></li>
+                        <li><a href="#" className="hover:text-green-600">About us</a></li>
+                        <li><a href="#" className="hover:text-green-600">Services</a></li>
+                        <li><a href="#" className="hover:text-green-600">Terms of service</a></li>
                     </ul>
                 </div>
 
@@ -50,8 +50,8 @@ const Footer = () => {
                 <div>
                     <h4 className="text-xl font-semibold mb-4">Nuestros Servicios</h4>
                     <ul className="space-y-2">
-                        <li><a href="#" className="hover:text-blue-600">Cursos</a></li>
-                        <li><a href="#" className="hover:text-blue-600">Podcasts</a></li>
+                        <li><a href="#" className="hover:text-green-600">Cursos</a></li>
+                        <li><a href="#" className="hover:text-green-600">Podcasts</a></li>
                     </ul>
                 </div>
 
@@ -60,16 +60,16 @@ const Footer = () => {
                     <h4 className="text-xl font-semibold mb-4">Siguenos</h4>
                     <p className="mb-4">Síguenos en nuestras redes</p>
                     <div className="flex space-x-3">
-                        <a href="#" className="text-gray-700 hover:text-blue-600">
+                        <a href="#" className="text-gray-700 hover:text-green-600">
                             <Twitter className="w-6 h-6" />
                         </a>
-                        <a href="#" className="text-gray-700 hover:text-blue-600">
+                        <a href="#" className="text-gray-700 hover:text-green-600">
                             <Facebook className="w-6 h-6" />
                         </a>
-                        <a href="#" className="text-gray-700 hover:text-blue-600">
+                        <a href="#" className="text-gray-700 hover:text-green-600">
                             <Instagram className="w-6 h-6" />
                         </a>
-                        <a href="#" className="text-gray-700 hover:text-blue-600">
+                        <a href="#" className="text-gray-700 hover:text-green-600">
                             <Linkedin className="w-6 h-6" />
                         </a>
                     </div>

@@ -8,7 +8,7 @@ const About = () => {
             <div className="container mx-auto px-4">
                 {/* Section Title */}
                 <div className="text-center mb-12">
-                    <h2 className="text-3xl md:text-4xl font-bold mb-4 text-gray-900">¿Qué es <span className="text-blue-600">Económica?</span></h2>
+                    <h2 className="text-3xl md:text-4xl font-bold mb-4 text-gray-900">¿Qué es <span className="text-green-600">Económica?</span></h2>
                 </div>
 
                 {/* Content Grid */}
@@ -34,7 +34,7 @@ const About = () => {
                         {/* Mission and Vision */}
                         <div className="space-y-6">
                             <div className="flex items-start">
-                                <Eye className="text-blue-600 w-32 sm:w-20 h-auto mt-2 mr-4" />
+                                <Eye className="text-green-600 w-32 sm:w-20 h-auto mt-2 mr-4" />
                                 <div>
                                     <h4 className="text-xl font-semibold text-gray-900">Misión</h4>
                                     <p className="text-gray-700">
@@ -44,7 +44,7 @@ const About = () => {
                             </div>
 
                             <div className="flex items-start">
-                                <Rocket className="text-blue-600 w-32 sm:w-16 h-auto mt-2 mr-2" />
+                                <Rocket className="text-green-600 w-32 sm:w-16 h-auto mt-2 mr-2" />
                                 <div>
                                     <h4 className="text-xl font-semibold text-gray-900">Visión</h4>
                                     <p className="text-gray-700">

@@ -50,7 +50,7 @@ const Portfolio = () => {
                 <div className="text-center mb-12">
                     <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Publicaciones</h2>
                     <p className="text-lg text-gray-600">
-                        Revisa nuestras <span className="text-yellow-500 font-semibold">Publicaciones</span>
+                        Revisa nuestras <span className="text-green-500 font-semibold">Publicaciones</span>
                     </p>
                 </div>
 
@@ -77,7 +77,7 @@ const Portfolio = () => {
                             <div className="p-4 text-center">
                                 <a
                                     href={item.detailLink}
-                                    className="text-yellow-500 font-semibold hover:text-yellow-600"
+                                    className="text-green-500 font-semibold hover:text-green-600"
                                 >
                                     View Details
                                 </a>
